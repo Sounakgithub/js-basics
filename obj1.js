@@ -17,3 +17,11 @@ const users = [
     }
 ]
 console.log(users[0].id)
+//to find the keys of an object***imp***
+const tinderuser = {
+    name:"sounak",
+    id:256,
+    mail:"o@123"
+
+}
+console.log(Object.keys(tinderuser))
